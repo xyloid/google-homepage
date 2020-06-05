@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Google Homepage</title>
+    </head>
+    <body>
+        <style>
+            .center {
+                margin: auto;
+                width: 50%;
+                text-align: center;
+            }
+
+            button {
+                margin-top: 1.5em;
+                border-radius: 5%;
+                border-width: 1px;
+                border-color: white;
+            }
+
+            button:hover {
+                border-color: gray;
+            }
+
+            .upleft{
+                text-align: right;
+                margin-left: 1.5em;
+            }
+
+            .upright{
+                text-align: right;
+                margin-left: 1.5em;
+            }
+
+            .flex-container{
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+            }
+
+            .flex-left {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .flex-right{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+
+            ul {
+                list-style: outside disc;
+                margin-left: 1em;
+            }
+            ul li {
+                position: relative;
+                left: 1em;
+                padding-right: 1em;    
+            }​
+        </style>
+
+        <div class = "flex-container">
+            <div class = "flex-left">
+                <div class="upleft">
+                    <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                </div>
+                <div class="upleft">
+                    <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                </div>
+            </div>
+
+            <div class="flex-right">
+                <div class="upright">
+                   <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a>
+                </div>
+                <div class="upright">
+                    <a href="https://www.google.com/intl/en/about/products?tab=wh">App</a>
+                </div>
+                <div class="upright">
+                    <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+                </div>
+                <div class="upright">
+                    <a href = "https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class = "center">
+        <img src="google.jpg"/ style="width: 500px;">
+        </div>
+        
+        <div class = "center">
+        <input type="text"><br>
+
+
+
+
+        <button>Search</button>
+        <button>I'm Feeling Lucky!</button>
+        </div>
+    
+    
+        <div class = "center", style="vertical-align: bottom;">
+            <ul>
+                <li style="float: left;">Copy left</li>
+                <li style="float: left;">Copy left 2</li>
+                <li style="float: right;">Copy right</li>
+            </ul>
+        </div>
+    
+    </body>
+</html>
